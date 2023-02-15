@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chaudhuree</title>
+    <!-- external library -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- pro font awesome 6 -->
+    <script defer src="./js/all.js"></script>
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader"></div>
+
+    <!-- hero section -->
+    <div class="container-fluid hero_body">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="text-end px-5 pt-4">
+            <a
+              href="about.html"
+              class="text-decoration-none text-light fw-bold inline-block"
+              >: : about me</a
+            >
+          </div>
+          <div class="col-12 hero-col">
+            <img
+              class="img-fluid hero_image"
+              src="assets/chaudhuree.jpg"
+              alt=""
+            />
+            <div class="intro-text text-center">
+              <h1><span class="intro_indent">H</span>i, i am chaudhuree</h1>
+              <h1>
+                i am a..<span class="typed-word"></span
+                ><span class="cursor">&nbsp;</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+    </div>
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      // preloader
+      const preloader = document.querySelector("#preloader");
+      window.addEventListener("load", function () {
+        setTimeout(() => {
+          preloader.style.display = "none";
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
